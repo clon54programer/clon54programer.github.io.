@@ -6,6 +6,10 @@
     background-color: #526D82;
 }
 
+#menu {
+    margin-block-end: 5px;
+}
+
 #menu h1 {
     text-align: center;
     color: #64CCC5;
