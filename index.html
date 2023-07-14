@@ -229,7 +229,7 @@ no es la excepción, las etapas son:
 
                         <h6> sprite</h6>
 
-                        <p> En este solo hay que instanciar una imagen en el apartado de texture
+                        <p> En este solo hay que instanciar una imagen en el apartado de  <strong>texture</strong>
                             que será la  representación del jugador en nuestro videojuego
     
                     
@@ -238,7 +238,7 @@ no es la excepción, las etapas son:
                         <br>
                         <br>
 
-                        Despues de instanciar la imagen hay que acomodar los Hframes y Vframes porque
+                        Despues de instanciar la imagen hay que acomodar <strong>los Hframes </strong> y <strong> Vframes </strong> porque
                         un sprite para un videojuego trae mas imagenes en una porque las demas las usaremos paras las animaciones.                    
                         </p>
 
@@ -247,13 +247,35 @@ no es la excepción, las etapas son:
                         <p>
                             Este nodo al seleccionarlo nos abre un nuevo apartado en la parte inferior de la pantalla. en donde vamos a crear las animaciones del player.
                             <br>
-                            Para crear una animación, se debe dar click en donde dice animación que nos abra una lista de varios elementos que a continuación le clickea el elemento new. 
+                            Para crear una animación, se debe dar click en donde dice animación que nos abra una lista de varios elementos que a continuación le clickea el elemento <strong>new</strong> . 
                             Despues de crear click se creara una pista para crear la animacion.
                             <img src="./img/Captura de pantalla 2023-07-13 215529.png" alt="">
                             <br>
                             <br>
-                            la animacion que vamos a realizar sera una que cuando el jugador se mueva o se quede quieto, el sprite se movera de arriba hacia abajo.
-                            <img src="./img/" alt="">
+                            La animacion que vamos a realizar sera una que cuando el jugador se mueva o se quede quieto, el sprite se movera de arriba hacia abajo.
+                            <br>
+                            <br>
+                            <img src="./img/Captura de pantalla 2023-07-13 220823.png" alt="">
+                            <br>
+                            <br>
+                            Ahora debemos selecionar el nodo sprite en el apartado de animation y en frames darle click en llave que a parece a su derecha para aegregar ese frame a la pista.
+                            <br>
+                            El nodo AnimationPlayer tambien sirve para crear animacion mas complejas ya que puede guadar cualquier estado del sprite.
+
+                        </p>
+
+                        <h6>CollisionShape2D</h6>
+
+                        <p>
+                            Este nodo es el mas importante ya que este nodo tiene la funcion de interatuar con otros elementos y hacer que las fisicas le afecten al sprite.
+                            <br>
+                            <br>
+                            <img src="./img/Captura de pantalla 2023-07-13 215443.png" alt="">
+                            <br>
+                            <br>
+                            lo primero que hay que hacer al selecionar este node es ir al apartado de <strong>Shape</strong> y elegir la forma de la colision
+                            que en este caso sera <strong>RectanguleShape</strong>. Despues de hacer esto debemos acomodar la figura elegida al sprite 
+                            para que la forma y el sprite concidan en sus posiciones.
                         </p>
 
 
