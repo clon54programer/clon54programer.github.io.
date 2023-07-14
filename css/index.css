@@ -1,5 +1,5 @@
 #main {
-    background-color: #DAFFFB;
+    background-color: #526D82;
 }
 
 #menu h1 {
@@ -8,7 +8,7 @@
 }
 
 #menu {
-    background-color: #001C30;
+    background-color: #27374D;
 }
 
 
@@ -31,7 +31,13 @@
     color: #64CCC5;
 }
 
+#etapas h5 {
+    color: #9DB2BF;
+}
 
+#etapas h6 {
+    color: #9DB2BF;
+}
 
 .img {
     box-align: center;
