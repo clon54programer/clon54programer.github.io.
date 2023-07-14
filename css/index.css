@@ -1,5 +1,5 @@
 #main {
-    background-color: #176B87;
+    background-color: #DAFFFB;
 }
 
 #menu h1 {
@@ -7,7 +7,9 @@
     color: #64CCC5;
 }
 
-
+#menu {
+    background-color: #001C30;
+}
 
 
 #intro h1 {
@@ -29,6 +31,9 @@
     color: #64CCC5;
 }
 
+.lista li {
+    color: #64CCC5;
+}
 
 .img {
     box-align: center;
