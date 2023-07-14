@@ -1,3 +1,3 @@
 # Persefone
 
-[](./img/qr-code.png)
+[QR](./img/qr-code.png)
