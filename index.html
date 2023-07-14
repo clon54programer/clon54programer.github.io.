@@ -142,15 +142,18 @@ no es la excepción, las etapas son:
                             </ul>
                         </p>
 
+                        <br>
                         <h4>Estrategia </h4>
 
                         <p>Si ya tenemos claro nuestra visión podemos pasar a la fase de estrategia, en donde todas las ideas que
                             realizamos en la etapa de visión las aplicaremos para analizrlas si son viables de estar en el producto
                             final.
                             <br>
+
                             La primer paso a realizar en esta etapa es la elección de un motor grafico pero primero, ¿que es un
                             motor grafico?
                             <br>
+
                             Un motor de videojuego (en inglés game engine), es un entorno de desarrollo que proporciona
                             herramientas para la creación de videojuegos.
                             Su función principal es dotar al videojuego de un motor para renderizar gráficos 2D y 3D, un motor
@@ -158,10 +161,12 @@ no es la excepción, las etapas son:
                             animaciones, scripts, sonidos, inteligencia artificial, redes, gestión de memoria, y demás sistemas del
                             videojuego.
                             <br>
+
                             Esta elección debe ser sabia porque no todos los game engine tiene las mismas funcionalidades y
                             prestaciones para la creación de videojuegos porque dependiendo de tu visión uno sera mejor o peor
                             que otro para la aplicación de tu visión.
                             <br>
+
                             Los los Game Engines mas populares son:
                             <ul>
                                 <li>Unreal Engine</li>
@@ -176,6 +181,55 @@ no es la excepción, las etapas son:
                                 <li>Programacion Flexible.</li>
                             </ul>
                         </p>
+
+                        <p>
+                            Antes de pasar a la creacion del jeugo como tal
+                            debemos dar Breve introducción de los conceptos clave de godot
+                            para el mejor entendimiento de lo siguiente.
+                            <br>
+                            Todos los motores de videjuegos giran alrededor de abstracciones que usas para hacer tus aplicaciones. 
+                            En Godot, un juego es un árbol de nodos que se agrupan juntos en escenas. Tu puedes enlazar estos nodos así ellos se pueden comunicar usando señales.
+                            Estos son los cuatro conceptos que aprenderás aquí. Nosotros vamos a mirarlos breve mente para darte una sensación de como el motor funciona.
+                            En la serie de empezando, vas a tener que ponerlos en practica.
+
+                            <br>
+                            <h6>Escenas</h6>
+
+                            <p>En Godot, puedes dividir tu juego en escenas reutilizables. Una escena puede ser un personaje, un arma, un menú en la interfaz de usuario, una sola casa, un nivel entero, o cualquier cosa que se te ocurra. Las escenas de Godot son flexibles; 
+                                hacen las veces de prefabs y escenas en otros motores de juego.</p>
+                            
+                            <img src="https://docs.godotengine.org/es/stable/_images/key_concepts_main_menu.png">
+                            <br>
+                            También puedes añadir escenas. Por ejemplo, tu puedes poner a tu personaje en un nivel, y arrastrarlo y soltarlo como un su yo de niño.
+                                <br>
+                                <br>
+                            <h6>Nodos</h6>
+
+                            Una escena es compuesta de uno o mas nodos, Los nodos son pequeños bloques de construcción de tu juego que tu acomodas en arboles.
+
+                            <img src="https://docs.godotengine.org/es/stable/_images/key_concepts_character_nodes.png" alt="ejemplo del uso de nodos en godot">
+                                <br>
+                                <br>
+                            Eso esta hecho de  <strong> KinmaticBody2D </strong> nudo llamado "Personaje", un <strong>``sprite </strong> , una  <strong>camera2D </strong>, y un <strong> CollisionShape2D</strong>.
+                        </p>
+
+                        <h5>creacion de un jugador</h5>
+
+                        <p>para crear un jugador nesecitamos 5 nodos:
+
+                            <ol>
+                                <li>KinmaticBody2D</li>
+                                <li>sprite</li>
+                                <li>AnimationPlayer</li>
+                                <li>CollisionShape2D</li>
+                                <li>camera2D</li>
+                            </ol>
+
+                        </p>
+
+                        <h6> sprite</h6>
+
+                        <p> En este solo hay que intaciar una imagen que sirvira como represetacion del jugador</p>
 
                         <h4></h4>
 
