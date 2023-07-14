@@ -276,9 +276,9 @@
                             CollisionShape2D</strong>.
                         </p>
 
-                        <h5>creacion de un jugador</h5>
+                        <h5>Creacion de un jugador</h5>
 
-                        <p>para crear un jugador nesecitamos 5 nodos:
+                        <p>Para crear un jugador nesecitamos 5 nodos:
 
                         <ol class="lista">
                             <li>KinmaticBody2D</li>
@@ -290,7 +290,7 @@
 
                         </p>
 
-                        <h6> sprite</h6>
+                        <h6> Sprite</h6>
 
                         <p> En este solo hay que instanciar una imagen en el apartado de <strong>texture</strong>
                             que será la representación del jugador en nuestro videojuego
@@ -371,7 +371,30 @@
 
                         </p>
 
+                        <h5>Diseño de niveles</h5>
 
+                        <p>el diseño de los niveles es crucial para un juego porque son donde la mayoria de objetos que
+                            interactúan
+                            con el jugador estan intaciado y como desarrolladores debemos ubicar de la mejor manero para
+                            evitar que
+                            el juego de vuelva repitivo.
+                            <br>
+
+                            Para diseñar un nivel en Godot, primero debemos crear
+                            un nueva escena en donde debemos colocar como nodo padre, uno de tipo 2D. Después a ese nodo
+                            hijo se debe colocar un nodo
+                            tipo <strong>tilemap</strong> que nos ayudará en la gestión y ubicación de los diferentes
+                            sprites.
+                            <br>
+                            <br>
+                            <img src="./img/Captura de pantalla 2023-07-14 002811.png" alt="">
+                            <br>
+                            <br>
+                            En el <strong>tilemap</strong> hay una opcion llamado tilesep la cual almacenas los sprite
+                            que
+                            usaremos para pintar la pantalla.
+                            <img src="./img/Captura de pantalla 2023-07-14 003121.png" alt="">
+                        </p>
                         <h4></h4>
 
                     </article>
